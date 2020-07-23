@@ -1,0 +1,22 @@
+<div>
+    <div class="d-flex flex-wrap mb-2">
+      <div class="mr-5 mb-2">Select an image file</div>
+      <input id="image-input" type="file" (change)="fileChangeListener($event)">
+    </div>
+    <div>
+
+            <!-- <button class="btn btn-secondary btn-block">Upload Image</button> -->
+
+
+        <!-- <p class="pv">Crop type:</p>
+        <div class="btn-group btn-group-justified mb">
+            <label class="btn btn-secondary" (click)="setRoundedMethod(false)" [class.active]="!cropperSettings.rounded">Square</label>
+            <label class="btn btn-secondary" (click)="setRoundedMethod(true)" [class.active]="cropperSettings.rounded">Circle</label>
+        </div> -->
+        <img-cropper #cropper [image]="data1" [settings]="cropperSettings" (onCrop)="cropped($event)"></img-cropper>
+        <!-- <div class="result" *ngIf="data1.image">
+            <p class="pv">Cropped image</p>
+            <img class="img-fluid img-thumbnail" [class.rounded-circle]="cropperSettings.rounded"  [src]="data1.image" [width]="cropperSettings.croppedWidth" [height]="cropperSettings.croppedHeight">
+        </div> -->
+    </div>
+</div>

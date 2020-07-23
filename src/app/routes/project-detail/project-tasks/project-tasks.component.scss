@@ -1,0 +1,22 @@
+#project-tasks{
+  background-color: #ffffff;
+  padding: 20px 50px;
+  .tasks-title{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .tasks-create{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    border-style: dashed;
+    border-width: 1px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .tasks-create:hover{
+    background-color: #eeeeee;
+  }
+}

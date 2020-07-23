@@ -11,6 +11,10 @@ import { CoreModule } from './core/core.module';
 import { LayoutModule } from './layout/layout.module';
 import { SharedModule } from './shared/shared.module';
 import { RoutesModule } from './routes/routes.module';
+import { AppService } from 'src/app/service/app.service';
+import { ProjectsModule } from './routes/projects/projects.module';
+import { MessageModule } from './routes/message/message.module';
+import { StartProjectModule } from './routes/start-project/start-project.module';
 
 // https://github.com/ocombe/ng2-translate/issues/218
 export function createTranslateLoader(http: HttpClient) {
@@ -34,9 +38,13 @@ export function createTranslateLoader(http: HttpClient) {
                 useFactory: (createTranslateLoader),
                 deps: [HttpClient]
             }
-        })
+        }),
+        ProjectsModule,
+        MessageModule,
+        StartProjectModule,
+        BrowserModule
     ],
-    providers: [],
+    providers: [AppService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

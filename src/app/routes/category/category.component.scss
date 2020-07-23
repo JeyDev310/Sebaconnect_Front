@@ -1,0 +1,26 @@
+#category{
+  .category-banner{
+    height: 350px;
+    background-image: url('src/assets/img/category_banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 1;
+  }
+  .title-blod{
+    font-weight: bold;
+  }
+  .category-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+::ng-deep .ng-image-slider .ng-image-slider-container .main .main-inner .img-div img{
+  margin: 0 !important;
+  height: 200px !important;
+}

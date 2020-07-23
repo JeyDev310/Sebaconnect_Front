@@ -1,0 +1,14 @@
+<div id="project-nav" class="container">
+  <div class="nav-header d-flex">
+    <div *ngFor="let item of subItem; index as i;" class="nav-item" (click)="onClickSubNav(i)">
+      {{item}}
+    </div>
+  </div>
+  <div>
+    <app-project-story *ngIf="subSelectItem==0"></app-project-story>
+    <app-project-payment *ngIf="subSelectItem==1"></app-project-payment>
+    <app-project-file *ngIf="subSelectItem==2"></app-project-file>
+    <app-project-tasks *ngIf="subSelectItem==3"></app-project-tasks>
+    <app-project-status *ngIf="subSelectItem==4"></app-project-status>
+  </div>
+</div>

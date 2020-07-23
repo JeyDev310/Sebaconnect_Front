@@ -1,0 +1,68 @@
+<div id="product-card">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <img class="project-img" src="{{project.img}}" alt="App Logo" />
+    </div>
+    <div class="col-sm-12 col-md-8">
+      <div class="product-title">
+        {{project.name}}
+      </div>
+      <div class="product-content">
+        {{project.description}}
+      </div>
+      <div class="row text-center mt-3">
+        <div class="col-4">
+          <div class="product-value">
+            US$ {{project.price}}
+          </div>
+          <div class="product-value-title">
+            Requesting US$ {{project.requesting}} goal
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="product-value">
+            {{project.share}}%
+          </div>
+          <div class="product-value-title">
+            %Share in Return
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="product-value">
+            {{project.milestone}}
+          </div>
+          <div class="product-value-title">
+            milestone
+          </div>
+        </div>
+        <div class="col-3">
+          <div *ngIf="project.status=='completed'">
+            <div class="product-value">
+              Completed
+            </div>
+            <div class="product-value-title">
+              {{project.endDate}}
+            </div>
+          </div>
+          <div *ngIf="project.status=='close'">
+            <div class="product-value">
+              {{project.closeDays}}
+            </div>
+            <div class="product-value-title">
+              days to campaign close
+            </div>
+          </div>
+          <div *ngIf="project.status=='backed'">
+            <div class="product-value">
+              {{project.closeDays}}
+            </div>
+            <div class="product-value-title">
+              Fully Backed
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

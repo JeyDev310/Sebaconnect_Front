@@ -1,0 +1,8 @@
+<div id="my-project" class="container">
+  <div class="title">My Project</div>
+  <div *ngFor="let project of projects" >
+    <app-project-card [project]="project" (click)="selectProject(project)"></app-project-card>
+    <hr style="border-color: #cecece;">
+  </div>
+
+</div>

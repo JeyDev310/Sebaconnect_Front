@@ -1,0 +1,21 @@
+<div id="category">
+  <div class="category-banner">
+    <span class="title-blod">Extend</span> a hand,<span class="title-blod">Give</span> a Leg up,<br>Make an <span class="title-blod">IMPACT!</span>
+  </div>
+  <div class="container">
+    <div *ngFor="let categoryItem of categoryObject" class="my-5">
+      <div class="category-title">
+        {{categoryItem.title}}
+      </div>
+      <ng-image-slider #nav
+        [images]="categoryItem.imageObject"
+        [infinite]="false"
+        [autoSlide]="1"
+        [imageSize]="{width: '31.5%', height: 250 , space: 10}"
+        slideImage="1">
+      </ng-image-slider>
+      <hr style="border-color: #cecece;">
+    </div>
+
+  </div>
+</div>

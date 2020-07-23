@@ -1,7 +1,7 @@
 
 const My_project = {
   text: 'My project',
-  link: '/my_project',
+  link: '/my-project',
 };
 const Message = {
   text: 'Message',
@@ -10,59 +10,73 @@ const Message = {
 //------- Project Submenu --------
 const Technology = {
   text: 'Technology',
-  link: '/project/technology',
+  index: 'technology',
+  link: '/projects/technology',
 };
 const Retail_store = {
   text: 'Retail store',
-  link: '/project/retail_store',
+  index: 'retail_store',
+  link: '/projects/retail_store',
 };
 const Wholesale = {
   text: 'Wholesale',
-  link: '/project/wholesale',
+  index: 'wholesale',
+  link: '/projects/wholesale',
 };
 const Service = {
   text: 'Service',
-  link: '/project/service',
+  index: 'service',
+  link: '/projects/service',
 };
 const Education = {
   text: 'Education',
-  link: '/project/education',
+  index: 'education',
+  link: '/projects/education',
 };
 const Transportation = {
   text: 'Transportation',
-  link: '/project/transportation',
+  index: 'transportation',
+  link: '/projects/transportation',
 };
 const Agriculture = {
   text: 'Agriculture, Irrigation & water',
-  link: '/project/agriculture',
+  index: 'agriculture',
+  link: '/projects/agriculture',
 };
 const Communication = {
   text: 'Communication',
-  link: '/project/communication',
+  index: 'communication',
+  link: '/projects/communication',
 };
 const Product = {
   text: 'Product',
-  link: '/project/product',
+  index: 'product',
+  link: '/projects/product',
 };
 const Restaurant = {
   text: 'Restaurant, food & beverage',
-  link: '/project/restaurant',
+  index: 'restaurant',
+  link: '/projects/restaurant',
 };
 const Tourism = {
   text: 'Tourism, Art & Culture',
-  link: '/project/tourism',
+  index: 'tourism',
+  link: '/projects/tourism',
 };
 const Fashion = {
   text: 'Fashion',
-  link: '/project/fashion',
+  index: 'fashion',
+  link: '/projects/fashion',
 };
 const Non_profit_project = {
   text: 'Non profit project',
-  link: '/project/non_profit_project',
+  index: 'non_profit_project',
+  link: '/projects/non_profit_project',
 };
 const Funder_projects = {
   text: 'Funder Projects',
-  link: '/project/funder_projects',
+  index: 'funder_projects',
+  link: '/projects/funder_projects',
 };
 
 //-------------------------------

@@ -1,0 +1,48 @@
+<div id="message" class="container">
+  <div class="message">
+    <div class="title">
+      Message
+    </div>
+    <hr style="border-color: #cecece; margin-bottom: 0;">
+    <div class="row" style="margin: 0;">
+      <div class="col-sm-6 col-md-4 chat-member">
+
+        <div *ngFor="let item of chatData; index as i;" class="media bb p-2 chat-user" [ngClass]="background[i]" (click)="onClickChatUser(i)">
+          <img class="mr-2 rounded-circle thumb32" src="{{item.img}}" alt="Image" />
+          <div class="media-body">
+              <p class="m-0">
+                  <a href="#">
+                      <strong>{{item.name}}</strong>
+                  </a>
+              </p>
+              <div class="text-sm text-muted">{{item.description}}</div>
+          </div>
+          <small class="ml-auto text-muted">{{item.time}}</small>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-8 chat-content">
+        <div *ngIf="selectUser">
+          <div class="d-flex">
+            <img class="mr-2 rounded-circle thumb48" src="{{selectUser.img}}" alt="Image" />
+            <div>
+              <div class="user-info">{{selectUser.name}}, {{selectUser.time}}</div>
+              <div class="client-content">{{selectUser.description}}</div>
+            </div>
+          </div>
+          <div class="user-content float-right">
+            Nice to meet you. Welcome.
+          </div>
+        </div>
+        <div class="row  chat-input">
+          <input class="col-10 form-control form-control-rounded" type="text" placeholder="Enter your message..." />
+          <div class="col-2">
+            <button class="btn btn-sm btn btn-primary" type="submit">Send</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

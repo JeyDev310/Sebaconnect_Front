@@ -1,0 +1,54 @@
+<div id="basic" class="container">
+  <div class="title">
+    Basic
+  </div>
+  <div class="row mt-4">
+    <div class="col-sm-12 col-md-6">
+      <fieldset>
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label text-lg-right">Category</label>
+            <div class="col-lg-10">
+                <select class="form-control">
+                    <option value="">Nothing</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+                <!-- <span class="text-danger" *ngIf="valForm.controls['select'].hasError('required') && (valForm.controls['select'].dirty || valForm.controls['select'].touched)">This field is required</span> -->
+            </div>
+            <!-- <div class="col-lg-4">
+                <small class="text-muted"></small>
+            </div> -->
+        </div>
+      </fieldset>
+      <fieldset>
+          <div class="form-group row">
+              <label class="col-lg-2 col-form-label text-lg-right">Title</label>
+              <div class="col-lg-10">
+                  <input class="form-control" type="text"/>
+                  <!-- <span class="text-danger" *ngIf="valForm.controls['digits'].hasError('pattern') && (valForm.controls['digits'].dirty || valForm.controls['digits'].touched)">This field must contain only digits</span> -->
+              </div>
+              <!-- <div class="col-lg-4">
+                  <small class="text-muted">pattern="/^[0-9]+$/"</small>
+              </div> -->
+          </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label text-lg-right">Description</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" type="text" style="height: 182px;"></textarea>
+                <!-- <span class="text-danger" *ngIf="valForm.controls['digits'].hasError('pattern') && (valForm.controls['digits'].dirty || valForm.controls['digits'].touched)">This field must contain only digits</span> -->
+            </div>
+            <!-- <div class="col-lg-4">
+                <small class="text-muted">pattern="/^[0-9]+$/"</small>
+            </div> -->
+        </div>
+      </fieldset>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <app-cropper></app-cropper>
+    </div>
+  </div>
+</div>

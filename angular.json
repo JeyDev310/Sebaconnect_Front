@@ -28,11 +28,13 @@
             ],
             "styles": [
               "src/app/core/preloader/preloader.scss",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/app/shared/bs-stepper/dist/css/bs-stepper.min.css"
             ],
             "scripts": [
               "src/app/core/wrapper/wrapper.js",
-              "src/app/core/preloader/preloader.js"
+              "src/app/core/preloader/preloader.js",
+              "src/app/shared/bs-stepper/dist/js/bs-stepper.min.js"
             ]
           },
           "configurations": {

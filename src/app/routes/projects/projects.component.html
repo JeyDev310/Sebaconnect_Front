@@ -1,0 +1,11 @@
+<div id="projects" class="container">
+    <div class="title">
+      {{project.title}}
+    </div>
+    <div class="row">
+      <div *ngFor="let item of project.imageObject" class="col-sm-12 col-md-4">
+        <app-card [project]="item"></app-card>
+    </div>
+  </div>
+</div>
+

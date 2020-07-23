@@ -21,7 +21,7 @@ $aside-bg:                                #fff;
 $content-bg:                              $body-bg;
 $content-heading-bg:                      #fafbfc;
 $content-heading-border:                  #cfdbe2;
-$content-padding:                         20px;
+$content-padding:                         0;
 
 $footer-hg:                               60px;
 
@@ -77,7 +77,7 @@ body {
 
             // position: handled from directive
             left: inherit;
-            margin-left: $aside-wd;
+            // margin-left: $aside-wd;
             z-index: $z-index-main-section * 10;
 
             min-width: 190px;
@@ -94,13 +94,14 @@ body {
         margin-bottom: $footer-hg !important; // ensure a space for the footer
     } // Page Footer
     .footer-container {
-        position: absolute;
+        // position: absolute;
         left: 0;
         right: 0;
         bottom: 0;
-        height: $footer-hg;
+        // height: $footer-hg;
         border-top: 1px solid $gray-light;
-        padding: $content-padding;
+        padding: 50px 0;
+        background-color: $aside-bg;
         z-index: $z-index-main-section - 2;
         font-size: .875rem;
         p {
@@ -187,7 +188,7 @@ body {
 
         .section-container,
         .footer-container {
-            margin-left: $aside-wd;
+            // margin-left: $aside-wd;
         }
 
         .section-container {

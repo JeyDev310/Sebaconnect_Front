@@ -7,13 +7,14 @@ import { WelcomeComponent} from './welcome/welcome.component';
 import { menu } from './menu';
 import { routes } from './routes';
 
+
 @NgModule({
     imports: [
         SharedModule,
         RouterModule.forRoot(routes)
     ],
     declarations: [
-      WelcomeComponent
+      WelcomeComponent,
     ],
     exports: [
         RouterModule

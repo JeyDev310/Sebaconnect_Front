@@ -12,15 +12,15 @@ $nav-header-wd-toggled:         $aside-wd-collapsed;
 
 $nav-header-wd-toggled-text:    $aside-wd-collapsed-text;
 
-$nav-top-bg:                    $info;
+$nav-top-bg:                    $secondary;
 $nav-top-bg-start:              $nav-top-bg;
-$nav-top-bg-end:                $info-light;
+$nav-top-bg-end:                $nav-top-bg;
 $nav-header-bg:                 transparent;
 
 $nav-top-item-mobile:           $nav-top-bg;
 $nav-top-item-mobile-active:    darken($nav-top-item-mobile, 20%);
 
-$nav-top-item-desktop:          #fff;
+$nav-top-item-desktop:          #000000;
 $nav-top-item-desktop-active:   $nav-top-item-mobile-active;
 
 

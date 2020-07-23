@@ -1,14 +1,15 @@
 <!-- START Top Navbar-->
 <nav class="navbar topnavbar navbar-expand-lg navbar-light" role="navigation">
     <!-- START navbar header-->
+    <div class="container">
     <div class="navbar-header">
         <a class="navbar-brand" href="#/">
             <div class="brand-logo">
-                <img class="img-fluid" src="assets/img/logo.png" alt="App Logo" />
+                <img class="img-fluid" src="assets/img/logo/logo.png" alt="App Logo" />
             </div>
-            <div class="brand-logo-collapsed">
-                <img class="img-fluid" src="assets/img/logo-single.png" alt="App Logo" />
-            </div>
+            <!-- <div class="brand-logo-collapsed">
+                <img class="img-fluid" src="assets//logo-single.png" alt="App Logo" />
+            </div> -->
         </a>
        <button class="navbar-toggler" type="button" (click)="navCollapsed = !navCollapsed; $event.stopPropagation()">
           <span class="navbar-toggler-icon"></span>
@@ -18,7 +19,7 @@
     <!-- START Nav wrapper-->
     <div class="navbar-collapse collapse" [collapse]="navCollapsed">
         <!-- Navbar Menu -->
-        <ul class="nav navbar-nav mr-auto flex-column flex-lg-row">
+        <ul class="nav navbar-nav mx-auto flex-column flex-lg-row">
             <ng-template ngFor let-item [ngForOf]="menuItems">
                 <!-- Single items -->
                 <li [routerLinkActive]="['active']" class="nav-item" *ngIf="!item.heading && !item.submenu">
@@ -34,7 +35,7 @@
                     </a>
                     <!-- START Dropdown menu-->
                     <div *dropdownMenu class="dropdown-menu">
-                        <a class="dropdown-item" [routerLinkActive]="['active']" *ngFor="let subitem of item.submenu" [routerLink]="subitem.link" [title]="subitem.text" >
+                        <a class="dropdown-item" [routerLinkActive]="['active']" *ngFor="let subitem of item.submenu" [routerLink]="[subitem.link, {category:subitem.index}]" [title]="subitem.text" >
                             <span>{{(subitem.translate | translate) || subitem.text}}</span>
                         </a>
                     </div>
@@ -44,6 +45,7 @@
         <!-- End Navbar Menu-->
         <!-- START Right Navbar-->
         <ul class="navbar-nav flex-row">
+            <button class="btn btn-success px-5 py-0 my-2" type="button" [routerLink]="'/start-project'">Start Project</button>
             <!-- START lock screen-->
             <li class="nav-item">
                 <a class="nav-link" title="Lock screen" [routerLink]="'/lock'">
@@ -136,5 +138,6 @@
     </div>
     <!-- END Nav wrapper-->
     <app-navsearch [visible]="getNavSearchVisible()" (onclose)="setNavSearchVisible(false)"></app-navsearch>
+    </div>
 </nav>
 <!-- END Top Navbar-->

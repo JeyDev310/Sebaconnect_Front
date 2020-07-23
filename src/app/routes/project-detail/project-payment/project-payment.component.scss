@@ -1,0 +1,27 @@
+#project-payment{
+
+  background-color: #ffffff;
+  padding: 20px 50px;
+  .story-img{
+    width: 100%;
+    height: auto;
+  }
+  .payment-title{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .story-sub-title{
+    font-size: 16px;
+    margin-bottom: 20px;
+    // font-weight: 600;
+  }
+  .story-avartar{
+    width: 76px;
+    height: auto;
+  }
+  .user-card{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px
+  }
+}

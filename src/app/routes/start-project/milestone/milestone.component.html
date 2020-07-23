@@ -1,0 +1,64 @@
+<div id="milestone" class="container">
+  <div class="title">
+    Milestone
+  </div>
+  <div class="mt-4">
+      <fieldset>
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label text-lg-right">Title</label>
+            <div class="col-lg-10">
+              <input class="form-control" type="text" [(ngModel)]="title" aria-label="Amount (to the nearest dollar)" />
+                <!-- <span class="text-danger" *ngIf="valForm.controls['select'].hasError('required') && (valForm.controls['select'].dirty || valForm.controls['select'].touched)">This field is required</span> -->
+            </div>
+            <!-- <div class="col-lg-4">
+                <small class="text-muted"></small>
+            </div> -->
+        </div>
+      </fieldset>
+      <fieldset>
+          <div class="form-group row">
+              <label class="col-lg-2 col-form-label text-lg-right">Price</label>
+              <div class="col-lg-10">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                      <span class="input-group-text">$</span>
+                  </div>
+                  <input class="form-control" type="text" [(ngModel)]="price" aria-label="Amount (to the nearest dollar)" />
+                </div>
+                  <!-- <span class="text-danger" *ngIf="valForm.controls['digits'].hasError('pattern') && (valForm.controls['digits'].dirty || valForm.controls['digits'].touched)">This field must contain only digits</span> -->
+              </div>
+              <!-- <div class="col-lg-4">
+                  <small class="text-muted">pattern="/^[0-9]+$/"</small>
+              </div> -->
+          </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label text-lg-right">Deadline</label>
+            <div class="col-lg-10">
+                <input class="form-control" [(ngModel)]="deadline" type="date"/>
+                <!-- <span class="text-danger" *ngIf="valForm.controls['date'].hasError('date') && (valForm.controls['date'].dirty || valForm.controls['date'].touched)">Enter a valid date</span> -->
+            </div>
+            <!-- <div class="col-lg-4">
+                <small class="text-muted">type='date'</small>
+            </div> -->
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label text-lg-right">Description</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" [(ngModel)]="description" type="date"></textarea>
+                <!-- <span class="text-danger" *ngIf="valForm.controls['date'].hasError('date') && (valForm.controls['date'].dirty || valForm.controls['date'].touched)">Enter a valid date</span> -->
+            </div>
+            <!-- <div class="col-lg-4">
+                <small class="text-muted">type='date'</small>
+            </div> -->
+        </div>
+      </fieldset>
+      <button class="btn btn-success py-2" style="width: 100%;" type="button" (click)="createMilestone()">+Add a milestone</button>
+  </div>
+  <div *ngFor="let milestone of newMilestones">
+    <app-milestone-card [milestone]="milestone"></app-milestone-card>
+  </div>
+</div>

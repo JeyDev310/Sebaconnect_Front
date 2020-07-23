@@ -33,6 +33,8 @@ import { NowDirective } from './directives/now/now.directive';
 import { ScrollableDirective } from './directives/scrollable/scrollable.directive';
 import { JqcloudDirective } from './directives/jqcloud/jqcloud.directive';
 
+import { NgImageSliderModule } from 'ng-image-slider';
+
 // https://angular.io/styleguide#!#04-10
 @NgModule({
     imports: [
@@ -103,7 +105,8 @@ import { JqcloudDirective } from './directives/jqcloud/jqcloud.directive';
         VectormapDirective,
         NowDirective,
         ScrollableDirective,
-        JqcloudDirective
+        JqcloudDirective,
+        NgImageSliderModule
     ]
 })
 
