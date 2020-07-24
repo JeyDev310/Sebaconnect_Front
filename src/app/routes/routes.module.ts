@@ -6,6 +6,9 @@ import { SharedModule } from '../shared/shared.module';
 import { WelcomeComponent} from './welcome/welcome.component';
 import { menu } from './menu';
 import { routes } from './routes';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { InspirationComponent } from './inspiration/inspiration.component';
+import { ReviewSliderComponent } from './inspiration/review-slider/review-slider.component'
 
 
 @NgModule({
@@ -15,6 +18,9 @@ import { routes } from './routes';
     ],
     declarations: [
       WelcomeComponent,
+      AboutusComponent,
+      InspirationComponent,
+      ReviewSliderComponent
     ],
     exports: [
         RouterModule

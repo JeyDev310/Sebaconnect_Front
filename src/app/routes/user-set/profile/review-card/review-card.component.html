@@ -1,0 +1,31 @@
+<div id="review-card">
+  <div class="">
+    <!-- <div class="col-sm-12 col-md-3">
+      <img class="profile-img" src="{{review.img}}" alt="App Logo" />
+      <div class="d-flex justify-content-center mt-2">
+        <img style="width: 30px;" src="assets/img/ethiopia-flag.png" alt="App Logo"/>
+        <div class="my-auto ml-2">{{review.country}}</div>
+      </div>
+    </div> -->
+    <div>
+      <div class="d-flex">
+        <img class="mr-2 rounded-circle thumb48" src="{{review.img}}" alt="App Logo" />
+
+        <div>
+          <div class="name">
+            <img style="width:30px; height: auto;" src="assets/img/ethiopia-flag.png" alt="App Logo"/>
+            {{review.name}}
+          </div>
+          <div class="star d-flex">
+            <div class="rate">{{review.rate}}</div>
+            <rating [(ngModel)]="review.rate" style="color: #EE9E26;font-size: 20px; line-height: 1;" [max]="5" [readonly]="true" stateOn="fa fa-star text-yellow" stateOff="far fa-star"></rating>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="mt-3">{{review.description}}</div>
+      </div>
+    <div>
+  </div>
+</div>
+

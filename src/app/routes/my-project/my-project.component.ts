@@ -21,7 +21,7 @@ export class MyProjectComponent implements OnInit {
   }
   selectProject (project: SCProjectModel){
     this._router.navigate(['/project-detail']);
-    this._appService.onCurrentProject.next(project);
+    this._appService.onCurrentProject.next({'project':project, 'user':'generator'});
   }
 
 }

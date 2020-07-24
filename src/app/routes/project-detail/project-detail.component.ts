@@ -11,6 +11,10 @@ import { SCProjectModel } from 'src/app/model/project';
 export class ProjectDetailComponent implements OnInit {
 
   project: SCProjectModel
+  userInfo: string
+  edigFlag: boolean = true
+  oldOverView : string
+  overView: string
   private _unsubscribeAll: Subject<any>;
   constructor(
     private _appService: AppService
@@ -21,9 +25,22 @@ export class ProjectDetailComponent implements OnInit {
   ngOnInit() {
     this._appService.onCurrentProject
     .pipe(takeUntil(this._unsubscribeAll))
-    .subscribe(project => {
-      this.project= project;
-      console.log('this is project!!!!!!!', this.project);
+    .subscribe(projectData => {
+      this.project= projectData.project;
+      this.userInfo = projectData.user;
+      console.log('this is project!!!!!!!',projectData, this.project);
     });
+  }
+
+  onEdit(){
+    this.edigFlag = false;
+    this.oldOverView = this.overView;
+  }
+  onCancel(){
+    this.edigFlag = true;
+    this.overView = this.oldOverView;
+  }
+  onSave(){
+    this.edigFlag = true;
   }
 }

@@ -1,0 +1,24 @@
+#milestone-card{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #eeeeee;
+  padding: 10px;
+  margin: 10px 0;
+  .milestone-id{
+    font-size: 16px;
+    // margin-bottom: 20px;
+  }
+  .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .description{
+    word-break: break-word;
+  }
+  .sub-title{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

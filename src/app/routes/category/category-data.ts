@@ -1,394 +1,1166 @@
 export const categoryObject: Array<any> =[
   {
     title: 'Technology',
+    index: 'technology',
+    link: '/projects/technology',
     imageObject: [{
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
+
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
+
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Retail Store',
+    index: 'retail_store',
+    link: '/projects/retail_store',
     imageObject: [{
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Wholesale',
+    index: 'wholesale',
+    link: '/projects/wholesale',
     imageObject: [{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Service',
+    index: 'service',
+    link: '/projects/service',
     imageObject: [{
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Education',
+    index: 'education',
+    link: '/projects/education',
     imageObject: [{
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Transportation',
+    index: 'transportation',
+    link: '/projects/transportation',
     imageObject: [{
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Agriculture, Irrigation & Water',
+    index: 'agriculture',
+    link: '/projects/agriculture',
     imageObject: [{
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Communication',
+    index: 'communication',
+    link: '/projects/communication',
     imageObject: [{
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Product',
+    index: 'product',
+    link: '/projects/product',
     imageObject: [{
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Restaurant, Food & Beverage',
+    index: 'restaurant',
+    link: '/projects/restaurant',
     imageObject: [{
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Tourism, Art & Culture',
+    index: 'tourism',
+    link: '/projects/tourism',
     imageObject: [{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Fashion',
+    index: 'fashion',
+    link: '/projects/fashion',
     imageObject: [{
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Non-Profit Projects',
+    index: 'non_profit_project',
+    link: '/projects/non_profit_project',
     imageObject: [{
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
     title: 'Funded Projects',
+    index: 'funder_projects',
+    link: '/projects/funder_projects',
     imageObject: [{
           image: 'assets/img/c4.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures',
+         title: 'Hummingbirds are amazing creatures',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
           thumbImage: 'assets/img/c2.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c2.jpg',
           thumbImage: 'assets/img/c3.jpg',
-          title: 'Example with title.'
+           title: 'Example with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c4.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
           thumbImage: 'assets/img/c5.jpg',
-          title: 'Hummingbirds are amazing creatures'
+          title: 'Hummingbirds are amazing creatures',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
           thumbImage: 'assets/img/c1.jpg',
-          title: 'Example two with title.'
+          title: 'Example two with title.',
+          description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
 

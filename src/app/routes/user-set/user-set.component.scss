@@ -1,0 +1,20 @@
+#user-set{
+  .nav-item{
+    font-size: 16px;
+    padding: 16px;
+    cursor: pointer;
+  }
+  .nav-header{
+    margin: 40px 0;
+    background-color: #ffffff;
+  }
+  .nav-item:hover{
+    font-size: 16px;
+    color: #cccccc;
+  }
+  .nav-select{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: #cccccc;
+  }
+}

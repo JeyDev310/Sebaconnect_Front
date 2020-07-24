@@ -1,51 +1,26 @@
 <div id="start-project" class="container">
   <div class="title">Start project</div>
-  <app-basic></app-basic>
-</div>
-<!-- <div class="container">
-  <div id="stepper1" class="bs-stepper">
-    <div class="bs-stepper-header">
-      <div class="step" data-target="#test-l-1">
-        <button class="step-trigger">
-          <span class="bs-stepper-circle">1</span>
-          <span class="bs-stepper-label">Email</span>
-        </button>
+  <app-basic *ngIf="pageNumber==0"></app-basic>
+  <app-funding *ngIf="pageNumber==1"></app-funding>
+  <app-milestone *ngIf="pageNumber==2"></app-milestone>
+  <div class="d-flex justify-content-lg-between p-2">
+    <button class="btn btn-primary" *ngIf="pageNumber!=0" type="button" (click)="onPreview()">Preview</button>
+    <button class="btn btn-primary" *ngIf="pageNumber==0" type="button" (click)="onPreview()" disabled="true">Preview</button>
+    <!-- <div>
+    <div class="mt-1">
+        <label class="checkbox c-checkbox c-checkbox-rounded">
+            <input id="roundedcheckbox10" type="checkbox" [(ngModel)]="checkFlag[0]"/>
+            <span class="fa fa-check"></span>---------</label>
+        <label class="checkbox c-checkbox c-checkbox-rounded">
+            <input id="roundedcheckbox20" type="checkbox" />
+            <span class="fa fa-check"></span>---------</label>
+        <label class="checkbox c-checkbox c-checkbox-rounded">
+              <input id="roundedcheckbox20" type="checkbox" />
+              <span class="fa fa-check"></span></label>
       </div>
-      <div class="line"></div>
-      <div class="step" data-target="#test-l-2">
-        <button class="step-trigger">
-          <span class="bs-stepper-circle">2</span>
-          <span class="bs-stepper-label">Password</span>
-        </button>
-      </div>
-      <div class="line"></div>
-      <div class="step" data-target="#test-l-3">
-        <button class="step-trigger">
-          <span class="bs-stepper-circle">3</span>
-          <span class="bs-stepper-label">Validate</span>
-        </button>
-      </div>
-    </div>
-    <div class="bs-stepper-content">
-      <form (ngSubmit)="onSubmit()">
-        <div id="test-l-1" class="content">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
-          </div>
-          <button (click)="next()" class="btn btn-primary">Next</button>
-        </div>
-        <div id="test-l-2" class="content">
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-          </div>
-          <button (click)="next()" class="btn btn-primary">Next</button>
-        </div>
-        <div id="test-l-3" class="content text-center">
-          <button type="submit" class="btn btn-primary mt-5">Submit</button>
-        </div>
-      </form>
-    </div>
+    </div> -->
+    <button class="btn btn-primary" *ngIf="pageNumber!=2" type="button" (click)="onNext()">Next</button>
+    <button class="btn btn-success" *ngIf="pageNumber==2" type="button" (click)="onSubmit()">Submit</button>
   </div>
-</div> -->
+</div>
+

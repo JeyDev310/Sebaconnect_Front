@@ -1,13 +1,31 @@
 <div id="milestone-card">
+
+  <div class="milestone-id d-flex justify-content-between">
+    <div>Milestone{{milestone.id+1}}</div>
+    <div>
+      <button class="btn btn-primary mr-2" type="button">Edit</button>
+      <button class="btn btn-danger" type="button">Delete</button>
+    </div>
+
+  </div>
   <div class="row">
-    <div>
-      Milestone{{milestone.id}}
+    <div class="col-8">
+      <div class="title">
+         {{milestone.title}}
+      </div>
+      <div class="description">
+        {{milestone.description}}
+      </div>
     </div>
-    <div>
-      {{milestone.title}}
-    </div>
-    <div>
-      {{milestone.description}}
+    <div class="col-4">
+      <div>
+        <div class="sub-title">Price</div>
+        <div>{{milestone.price}}</div>
+      </div>
+      <div>
+        <div class="sub-title">Estimated Delivery</div>
+        <div>{{milestone.deadline}}</div>
+      </div>
     </div>
   </div>
 

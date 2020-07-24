@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { projectsObject } from './projects-data';
+import { AppService } from 'src/app/service/app.service';
+
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -13,6 +15,8 @@ export class ProjectsComponent implements OnInit {
   project: any;
   constructor(
     private route: ActivatedRoute,
+    private _route: Router,
+    private _appService: AppService
   ) { }
 
   ngOnInit() {
@@ -25,6 +29,10 @@ export class ProjectsComponent implements OnInit {
         this.project = project;
       }
     });
+  }
+  onSelectProject(project){
+    this._appService.onCurrentProject.next({'project':project, 'user':'client'});
+    this._route.navigate(['/project-detail']);
   }
 
 }

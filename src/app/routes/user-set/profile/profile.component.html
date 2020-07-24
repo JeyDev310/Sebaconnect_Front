@@ -1,0 +1,47 @@
+<div id="profile">
+  <div class="row">
+    <div class="col-sm-12 col-md-3 mb-3">
+      <img class="profile-img" src="assets/img/avatar1.png" alt="App Logo" />
+      <div class="d-flex justify-content-center mt-2">
+        <img src="assets/img/ethiopia-flag.png" alt="App Logo"/>
+        <div class="my-auto ml-2">Addis Ababa, Ethiopia</div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-9">
+      <div class="d-flex justify-content-between">
+        <div>
+          <div class="name">
+            Liya Kebede
+          </div>
+          <div class="star d-flex">
+            <div class="rate">{{rate}}</div>
+            <rating [(ngModel)]="rate" style="color: #EE9E26;font-size: 20px; line-height: 1;" [max]="5" [readonly]="true" stateOn="fa fa-star text-yellow" stateOff="far fa-star"></rating>
+          </div>
+        </div>
+        <div>
+          <button *ngIf="edigFlag" class="btn btn-sm btn btn-primary" type="submit" (click)="onEdit()">Edit Overview</button>
+          <div *ngIf="!edigFlag">
+            <button class="btn btn-sm btn btn-secondary mr-3" type="submit" (click)="onCancel()">Cancel</button>
+            <button class="btn btn-sm btn btn-success" type="submit" (click)="onSave()">Save</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div *ngIf="edigFlag" class="mt-3">{{overView}}</div>
+        <textarea *ngIf="!edigFlag" class="form-control mt-3" type="text" style="height: 250px;" [(ngModel)]="overView"></textarea>
+      </div>
+    <div>
+      </div>
+      <div class="overview">
+      </div>
+    </div>
+  </div>
+  <div class="Recommendations">
+    Recommendations
+  </div>
+  <div *ngFor="let item of reviews"  class="review">
+    <app-review-card [review] = "item"></app-review-card>
+    <hr>
+  </div>
+</div>
+

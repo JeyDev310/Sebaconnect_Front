@@ -4,40 +4,83 @@ export const projectsObject: Array<any> =[
     index: 'technology',
     imageObject: [{
           image: 'assets/img/c1.jpg',
-          thumbImage: 'assets/img/c1.jpg',
+          thumbimage: 'assets/img/c1.jpg',
           title: 'Customer Services Application',
           description: 'roll out customer service application to help business add more revenue by providing them customer insights. Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-          name: 'XYZ Tech'
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
+
       }, {
           image: 'assets/img/c2.jpg',
-          thumbImage: 'assets/img/c2.jpg',
+          thumbimage: 'assets/img/c2.jpg',
           title: 'Decision making Application',
           description: 'Enable businesses AI Based application to increase their revenue',
-          name: 'ABC Tech Inc.'
+          name: 'ABC Tech Inc.',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c3.jpg',
-          thumbImage: 'assets/img/c3.jpg',
+          thumbimage: 'assets/img/c3.jpg',
           title: 'Robust Social Media Management',
           description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-          name: 'XYZ Tech'
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       },{
           image: 'assets/img/c4.jpg',
-          thumbImage: 'assets/img/c4.jpg',
+          thumbimage: 'assets/img/c4.jpg',
           title: 'Decision making Application',
           description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-          name: 'XYZ Tech'
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c5.jpg',
-          thumbImage: 'assets/img/c5.jpg',
+          thumbimage: 'assets/img/c5.jpg',
           title: 'Robust Social Media Management',
           description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-          name: 'XYZ Tech'
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }, {
           image: 'assets/img/c1.jpg',
-          thumbImage: 'assets/img/c1.jpg',
+          thumbimage: 'assets/img/c1.jpg',
           title: 'Example two with title.',
           description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-          name: 'XYZ Tech'
+          name: 'XYZ Tech',
+          'requesting': 3000,
+          'price': 3000,
+          'share': 20,
+          'milestone': 2,
+          'status': 'close',
+          'endDate': '',
+          'closeDays': 37
       }]
   },
   {
@@ -45,40 +88,82 @@ export const projectsObject: Array<any> =[
     index: 'retail_store',
     imageObject: [{
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Customer Services Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c2.jpg',
-      thumbImage: 'assets/img/c2.jpg',
+      thumbimage: 'assets/img/c2.jpg',
       title: 'Decision making Application',
       description: 'Enable businesses AI Based application to increase their revenue',
-      name: 'ABC Tech Inc.'
+      name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c3.jpg',
-      thumbImage: 'assets/img/c3.jpg',
+      thumbimage: 'assets/img/c3.jpg',
       title: 'Robust Social Media Management',
       description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   },{
       image: 'assets/img/c4.jpg',
-      thumbImage: 'assets/img/c4.jpg',
+      thumbimage: 'assets/img/c4.jpg',
       title: 'Decision making Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c5.jpg',
-      thumbImage: 'assets/img/c5.jpg',
+      thumbimage: 'assets/img/c5.jpg',
       title: 'Robust Social Media Management',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Example two with title.',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }]
   },
   {
@@ -86,40 +171,82 @@ export const projectsObject: Array<any> =[
     index: 'wholesale',
     imageObject: [{
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Customer Services Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c2.jpg',
-      thumbImage: 'assets/img/c2.jpg',
+      thumbimage: 'assets/img/c2.jpg',
       title: 'Decision making Application',
       description: 'Enable businesses AI Based application to increase their revenue',
-      name: 'ABC Tech Inc.'
+      name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c3.jpg',
-      thumbImage: 'assets/img/c3.jpg',
+      thumbimage: 'assets/img/c3.jpg',
       title: 'Robust Social Media Management',
       description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   },{
       image: 'assets/img/c4.jpg',
-      thumbImage: 'assets/img/c4.jpg',
+      thumbimage: 'assets/img/c4.jpg',
       title: 'Decision making Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c5.jpg',
-      thumbImage: 'assets/img/c5.jpg',
+      thumbimage: 'assets/img/c5.jpg',
       title: 'Robust Social Media Management',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Example two with title.',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }]
   },
   {
@@ -127,40 +254,82 @@ export const projectsObject: Array<any> =[
     index: 'service',
     imageObject: [{
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Customer Services Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c2.jpg',
-      thumbImage: 'assets/img/c2.jpg',
+      thumbimage: 'assets/img/c2.jpg',
       title: 'Decision making Application',
       description: 'Enable businesses AI Based application to increase their revenue',
-      name: 'ABC Tech Inc.'
+      name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c3.jpg',
-      thumbImage: 'assets/img/c3.jpg',
+      thumbimage: 'assets/img/c3.jpg',
       title: 'Robust Social Media Management',
       description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   },{
       image: 'assets/img/c4.jpg',
-      thumbImage: 'assets/img/c4.jpg',
+      thumbimage: 'assets/img/c4.jpg',
       title: 'Decision making Application',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c5.jpg',
-      thumbImage: 'assets/img/c5.jpg',
+      thumbimage: 'assets/img/c5.jpg',
       title: 'Robust Social Media Management',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }, {
       image: 'assets/img/c1.jpg',
-      thumbImage: 'assets/img/c1.jpg',
+      thumbimage: 'assets/img/c1.jpg',
       title: 'Example two with title.',
       description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-      name: 'XYZ Tech'
+      name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
   }]
   },
   {
@@ -168,40 +337,82 @@ export const projectsObject: Array<any> =[
     index: 'education',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -209,40 +420,82 @@ export const projectsObject: Array<any> =[
     index: 'transportation',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -250,40 +503,82 @@ export const projectsObject: Array<any> =[
     index: 'agriculture',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -291,40 +586,82 @@ export const projectsObject: Array<any> =[
     index: 'communication',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -332,40 +669,82 @@ export const projectsObject: Array<any> =[
     index: 'product',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -373,40 +752,82 @@ export const projectsObject: Array<any> =[
     index: 'restaurant',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -414,40 +835,82 @@ export const projectsObject: Array<any> =[
     index: 'tourism',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -455,40 +918,82 @@ export const projectsObject: Array<any> =[
     index: 'fashion',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -496,40 +1001,82 @@ export const projectsObject: Array<any> =[
     index: 'non_profit_project',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
   {
@@ -537,40 +1084,82 @@ export const projectsObject: Array<any> =[
     index: 'funder_projects',
     imageObject: [{
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Customer Services Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c2.jpg',
-        thumbImage: 'assets/img/c2.jpg',
+        thumbimage: 'assets/img/c2.jpg',
         title: 'Decision making Application',
         description: 'Enable businesses AI Based application to increase their revenue',
-        name: 'ABC Tech Inc.'
+        name: 'ABC Tech Inc.',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c3.jpg',
-        thumbImage: 'assets/img/c3.jpg',
+        thumbimage: 'assets/img/c3.jpg',
         title: 'Robust Social Media Management',
         description: 'Provide insightful resources to increase customer growth & product Awareness for businesses. We will show our solution will impact business growth.',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     },{
         image: 'assets/img/c4.jpg',
-        thumbImage: 'assets/img/c4.jpg',
+        thumbimage: 'assets/img/c4.jpg',
         title: 'Decision making Application',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c5.jpg',
-        thumbImage: 'assets/img/c5.jpg',
+        thumbimage: 'assets/img/c5.jpg',
         title: 'Robust Social Media Management',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }, {
         image: 'assets/img/c1.jpg',
-        thumbImage: 'assets/img/c1.jpg',
+        thumbimage: 'assets/img/c1.jpg',
         title: 'Example two with title.',
         description: 'roll out customer service application to help business add more revenue by providing them customer insights. ..',
-        name: 'XYZ Tech'
+        name: 'XYZ Tech',
+      'requesting': 3000,
+      'price': 3000,
+      'share': 20,
+      'milestone': 2,
+      'status': 'close',
+      'endDate': '',
+      'closeDays': 37
     }]
   },
 

@@ -1,0 +1,38 @@
+<div id="bj-reviews">
+    <div class="container">
+        <!-- <h4 style="font-size: 24px;">REVIEWS({{restaurant.user_ratings_total}})</h4> -->
+        <div class="reviews-slider">
+            <div #carousel class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" >
+                    <div class="carousel-item" *ngFor="let review of reviews; let i = index" [ngClass]="{'active': i == this.active }">
+                        <div class="carousel-box">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-12 col-12">
+                                    <div class="carousel-img">
+                                        <img src="{{review.img}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-12 col-12">
+                                    <div class="carousel-text">
+                                        <h4>{{review.name}}</h4>
+                                        <rating [(ngModel)]="review.rate" style="color: #EE9E26;font-size: 20px; line-height: 1;" [max]="5" [readonly]="true" stateOn="fa fa-star text-yellow" stateOff="far fa-star"></rating>
+                                        <div class="review-text">{{review.description}}</div>
+                                          <!--  <button mat-raised-button class="show_hide" (click)="flag=!flag" data-content="toggle-text"> More</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" (click)="gotoSenderPrev()" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" (click)="gotoSenderNext()" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

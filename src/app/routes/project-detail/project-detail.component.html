@@ -1,39 +1,55 @@
 <div id="project-detail" class="container">
   <div class="row mt-5">
     <div class="col-4">
-      <div class="title">{{project.name}}</div>
-      <div>{{project.description}}</div>
+      <div *ngIf="edigFlag" class="title">{{project.name}}</div>
+      <input *ngIf="!edigFlag" class="title" type="text" [(ngModel)]="project.name"/>
+
+      <div *ngIf="edigFlag">{{project.description}}</div>
+      <textarea *ngIf="!edigFlag" class="form-control mt-3" type="text" style="height: 250px;" [(ngModel)]="project.description"></textarea>
     </div>
     <div class="col-4">
-      <img class="project-img" src="{{project.img}}" alt="App Logo" />
+      <img class="project-img" src="{{project.image}}" alt="App Logo" />
     </div>
     <div class="col-4">
+      <div *ngIf="userInfo==='generator'" class="float-right">
+        <button *ngIf="edigFlag" class="btn btn-sm btn btn-primary" type="submit" (click)="onEdit()">Edit</button>
+        <div *ngIf="!edigFlag">
+          <button class="btn btn-sm btn btn-secondary mr-3" type="submit" (click)="onCancel()">Cancel</button>
+          <button class="btn btn-sm btn btn-success" type="submit" (click)="onSave()">Save</button>
+        </div>
+      </div>
       <div class="text-left mt-3">
-        <div class="col-12 mb-2">
-          <div class="product-value">
-            US$ {{project.price}}
+        <div class="mb-2">
+          <div class="product-value d-flex">
+            US${{project.price}}
+            <!-- <span *ngIf="edigFlag" >{{project.price}}</span>
+            <input *ngIf="!edigFlag" class="title w-25" type="text" [(ngModel)]="project.price"/> -->
           </div>
           <div class="product-value-title">
             Requesting US$ {{project.requesting}} goal
           </div>
         </div>
-        <div class="col-12 mb-2">
+        <div class="mb-2">
           <div class="product-value">
+            <!-- <span *ngIf="edigFlag">{{project.share}}</span>
+            <input *ngIf="!edigFlag" class="title" style="width: 30px;" type="text" [(ngModel)]="project.share"/> -->
             {{project.share}}%
           </div>
           <div class="product-value-title">
             %Share in Return
           </div>
         </div>
-        <div class="col-12 mb-2">
+        <div class="mb-2">
           <div class="product-value">
             {{project.milestone}}
+            <!-- <span *ngIf="edigFlag">{{project.milestone}}</span>
+            <input *ngIf="!edigFlag" class="title" style="width: 30px;" type="text" [(ngModel)]="project.milestone"/> -->
           </div>
           <div class="product-value-title">
             milestone
           </div>
         </div>
-        <div class="col-12 mb-2">
+        <div class="mb-2">
           <div *ngIf="project.status=='completed'">
             <div class="product-value">
               Completed
@@ -58,9 +74,19 @@
               Fully Backed
             </div>
           </div>
+          <hr style="border-color: #cecece;">
+          <div class="d-flex mt-3">
+            <img class="mr-2 rounded-circle thumb48" src="assets/img/user/10.jpg" alt="App Logo" />
+            <div>
+              <div>Project Backer: <span class="font-weight-bold">Negus Abebe</span></div>
+              <div>Email Address : <span class="font-weight-bold">Negus@gmailcom</span></div>
+              <div>Telephon : <span class="font-weight-bold">1-574-222-2222</span></div>
+              <button class="btn btn-sm btn btn-success mt-2" type="submit" [routerLink]="'/message'">Chat</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <app-project-nav></app-project-nav>
+  <app-project-nav [userInfo]="userInfo"></app-project-nav>
 </div>

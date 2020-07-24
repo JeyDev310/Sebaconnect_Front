@@ -1,9 +1,14 @@
 #projects{
+  overflow: auto !important;
   padding: 40px 0;
   .title{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
 
+  }
+  .submit{
+    font-size: 24px;
+    font-weight: 600;
   }
 }

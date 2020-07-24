@@ -56,7 +56,7 @@
             </div> -->
         </div>
       </fieldset>
-      <button class="btn btn-success py-2" style="width: 100%;" type="button" (click)="createMilestone()">+Add a milestone</button>
+      <button class="btn btn-success py-2 mb-3" style="width: 100%;" type="button" (click)="createMilestone()">+Add a milestone</button>
   </div>
   <div *ngFor="let milestone of newMilestones">
     <app-milestone-card [milestone]="milestone"></app-milestone-card>

@@ -1,0 +1,14 @@
+#payment{
+    background-color: #fff;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  .payment-card{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 15px 0 rgba(13, 62, 83, 0.24);
+    margin: 10px 0;
+  }
+}

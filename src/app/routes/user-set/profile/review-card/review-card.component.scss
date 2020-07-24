@@ -1,0 +1,21 @@
+#review-card{
+  width: 100%;
+
+  .profile-img{
+    // width: 100%;
+    // padding: 0 70px;
+
+  }
+  .name{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .rate{
+    width: 30px;
+    text-align: center;
+    background-color: #EE9E26;
+    border-radius: 2px;
+    color: #fff;
+
+  }
+}

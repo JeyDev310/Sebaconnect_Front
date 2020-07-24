@@ -94,7 +94,7 @@ const Inspiration = {
 };
 const About_us = {
   text: 'About us',
-  link: '/about_us',
+  link: '/aboutus',
 };
 const headingMain = {
   text: 'Main Navigation',

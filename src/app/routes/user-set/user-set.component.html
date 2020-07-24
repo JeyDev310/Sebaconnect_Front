@@ -1,0 +1,15 @@
+<div id="user-set" class="container">
+  <div class="nav-header d-flex">
+    <div *ngFor="let item of subItem; index as i;" class="nav-item" (click)="onClickSubNav(i)" [ngClass]="navSelect[i]">
+      {{item}}
+    </div>
+  </div>
+  <div>
+    <app-profile *ngIf="subSelectItem==0"></app-profile>
+    <app-payment *ngIf="subSelectItem==1"></app-payment>
+    <app-account-set *ngIf="subSelectItem==2"></app-account-set>
+    <!--  <app-project-tasks *ngIf="subSelectItem==3"></app-project-tasks>
+    <app-project-status *ngIf="subSelectItem==4"></app-project-status> -->
+  </div>
+</div>
+

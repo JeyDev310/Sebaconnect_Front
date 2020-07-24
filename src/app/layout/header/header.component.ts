@@ -16,9 +16,13 @@ export class HeaderComponent implements OnInit {
     navCollapsed = true; // for horizontal layout
     menuItems = []; // for horizontal layout
     router: Router;
-
+    setUserInfoFlag: boolean = false;
     isNavSearchVisible: boolean;
     @ViewChild('fsbutton', { static: true }) fsbutton;  // the fullscreen button
+
+    setUser_image: string ="assets/img/us.svg";
+
+
 
     constructor(public menu: MenuService, public userblockService: UserblockService, public settings: SettingsService, public injector: Injector) {
 
@@ -36,11 +40,11 @@ export class HeaderComponent implements OnInit {
         }
 
         // Switch fullscreen icon indicator
-        const el = this.fsbutton.nativeElement.firstElementChild;
-        screenfull.on('change', () => {
-            if (el)
-                el.className = screenfull.isFullscreen ? 'fa fa-compress' : 'fa fa-expand';
-        });
+        // const el = this.fsbutton.nativeElement.firstElementChild;
+        // screenfull.on('change', () => {
+        //     if (el)
+        //         el.className = screenfull.isFullscreen ? 'fa fa-compress' : 'fa fa-expand';
+        // });
 
         this.router = this.injector.get(Router);
 
@@ -90,5 +94,16 @@ export class HeaderComponent implements OnInit {
         if (screenfull.enabled) {
             screenfull.toggle();
         }
+    }
+
+    setUserInfo(){
+
+      if (this.setUserInfoFlag) { this.setUser_image = "assets/img/us.svg";} else { this.setUser_image = "assets/img/us-g.svg";}
+    }
+    mouseenter(){
+      this.setUser_image = "assets/img/us-g.svg";
+    }
+    mouseLeave(){
+      this.setUser_image = "assets/img/us.svg";
     }
 }

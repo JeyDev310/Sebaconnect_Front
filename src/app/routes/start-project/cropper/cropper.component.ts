@@ -24,10 +24,10 @@ export class CropperComponent implements OnInit {
         this.cropperSettings.height = 200;
 
         this.cropperSettings.croppedWidth = 500;
-        this.cropperSettings.croppedHeight = 300;
+        this.cropperSettings.croppedHeight = 400;
 
         this.cropperSettings.canvasWidth = 500;
-        this.cropperSettings.canvasHeight = 300;
+        this.cropperSettings.canvasHeight = 400;
 
         this.cropperSettings.minWidth = 100;
         this.cropperSettings.minHeight = 100;
